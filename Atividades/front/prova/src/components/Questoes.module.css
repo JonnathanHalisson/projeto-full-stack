@@ -1,0 +1,49 @@
+.botaoBonito {
+    background-color: blueviolet;
+    color: white;
+    margin: 10% auto 0 auto;
+    display: block;
+}
+
+.botaoBonito2 {
+    background-color: blueviolet;
+    color: white;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.botaoInicial {
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 30vw;
+    height: 9vh;
+}
+
+.localBotao {
+    margin: auto;
+}
+
+.container {
+    background-color: burlywood;
+    width: 100%;
+    height: 97vh;
+    display: flex;
+}
+
+.questionario {
+    flex: 1;
+}
+
+.respostas {
+    flex: 1;
+}
+
+.final {
+    flex: 1;
+}
+
+.textoLegal {
+    padding-left: 20%;
+}
