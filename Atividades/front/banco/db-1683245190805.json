@@ -1,0 +1,22 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "joao",
+      "email": "joao@uniesp.edu.br",
+      "curso": "sistemas para internet"
+    },
+    {
+      "id": 2,
+      "nome": "joana",
+      "email": "joana@gmail.com",
+      "curso": "redes de computadores"
+    },
+    {
+      "id": 3,
+      "nome": "joana",
+      "email": "joana@gmail.com",
+      "curso": "redes de computadores"
+    }
+  ]
+}
