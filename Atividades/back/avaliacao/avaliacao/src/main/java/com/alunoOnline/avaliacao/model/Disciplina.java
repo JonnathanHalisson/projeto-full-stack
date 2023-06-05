@@ -18,6 +18,7 @@ public class Disciplina  implements Serializable {
     private Long Id;
 
     private String nome;
+
     @ManyToOne
     @JoinColumn(name= "professor_id")
     private Professor professor;

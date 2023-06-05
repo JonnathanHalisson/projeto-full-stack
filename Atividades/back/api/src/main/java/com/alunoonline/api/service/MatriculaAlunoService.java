@@ -15,4 +15,6 @@ public class MatriculaAlunoService {
         matriculaAluno.setStatus("MATRICULADO");
         return repository.save(matriculaAluno);
     }
+
+    public void atualizarNotas
 }

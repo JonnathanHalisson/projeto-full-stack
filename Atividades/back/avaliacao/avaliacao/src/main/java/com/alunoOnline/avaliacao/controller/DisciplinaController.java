@@ -51,7 +51,7 @@ public class DisciplinaController {
     }
 
     @PatchMapping("/{id}")
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public ResponseEntity<Disciplina> update(@PathVariable Long id, @RequestBody Disciplina disciplina) {
         Optional<Disciplina> disciplinaOptional = service.findById(id);
 

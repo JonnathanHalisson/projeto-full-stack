@@ -44,7 +44,7 @@ public class AlunoController {
     }
 
     @PatchMapping("/{id}")
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public ResponseEntity<Aluno> update(@PathVariable Long id, @RequestBody Aluno aluno) {
         Optional<Aluno> alunoOptional = service.findById(id);
 

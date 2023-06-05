@@ -1,0 +1,33 @@
+.espaco {
+    text-align: center;
+}
+
+.container {
+    background-color: burlywood;
+    width: 100%;
+    height: 97vh;
+    display: flex;
+}
+
+.localBotao{
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 30vw;
+    height: 9vh;
+}
+
+.localTexto{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 30vw;
+    height: 9vh;
+}
+
+.container1 {
+    text-align: center;
+    background-color: rgb(167, 134, 91);
+    height: 25vh;   
+    margin: auto ;
+}

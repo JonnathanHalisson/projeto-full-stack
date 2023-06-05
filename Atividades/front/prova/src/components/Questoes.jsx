@@ -87,7 +87,7 @@ const Questoes = () => {
                 }
             }
             alert('Você acertou ' + acertos + '/3.')
-            window.location.reload()
+            window.location.href = '/Resultados';
         } else {
             alert('Você precisa resposder todas as questões!')
         }

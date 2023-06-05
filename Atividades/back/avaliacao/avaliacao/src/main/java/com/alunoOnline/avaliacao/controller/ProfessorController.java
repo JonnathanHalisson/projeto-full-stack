@@ -46,7 +46,7 @@ public class ProfessorController {
     }
 
     @PatchMapping("/{id}")
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public ResponseEntity<Professor> update(@PathVariable Long id, @RequestBody Professor professor) {
         Optional<Professor> professorOptional = service.findById(id);
 

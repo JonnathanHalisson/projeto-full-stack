@@ -19,6 +19,7 @@ public class ProfessorService {
         return repository.save(professor);
     }
 
+
     public List<Professor> findAll(){
         return repository.findAll();
     }
